@@ -13,10 +13,10 @@ repository = "https://github.com/dtolnay/quote"
 rust-version = "1.71"
 
 [dependencies]
-proc-macro2 = { version = "1.0.80", default-features = false }
+proc-macro2 = { version = "1.0.107", default-features = false }
 
 [dev-dependencies]
-rustversion = "1.0"
+rustversion = "1.0.23"
 trybuild = { version = "1.0.108", features = ["diff"] }
 
 [features]
